@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS&mdash;variables</title>
+  </head>
+  <style>
+    :root {
+      --primary: #cad5e2;
+      --secondary: #3dbe29;
+      --md: 24px;
+    }
+    body {
+      background-color: var(--primary);
+    }
+    .article {
+      color: var(--secondary);
+      font-size: var(--md);
+      padding: 20px;
+      text-align: left;
+    }
+  </style>
+  <body>
+    <section class="article">
+      <h3>The Kathmandu Post</h3>
+      <p class="text">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat fuga
+        dicta rerum esse ut excepturi et explicabo eligendi quo quae voluptatem
+        debitis minus perferendis optio distinctio odit, temporibus cumque velit
+        nulla ducimus dolorum ullam. Modi aperiam harum, ipsam ullam incidunt
+        nemo dolores amet quas corrupti nisi voluptas repellat, labore, adipisci
+        maiores! Velit deleniti nihil distinctio sed accusamus blanditiis totam
+        consectetur quibusdam corporis quo? Perspiciatis, nesciunt. Voluptates
+        id debitis suscipit! Vero numquam quod, tenetur nihil similique
+        recusandae velit laboriosam pariatur beatae repudiandae explicabo, non
+        ipsa veniam neque accusantium culpa nesciunt debitis eligendi, at labore
+        et vitae quos! Alias, nihil odio! Velit?
+      </p>
+    </section>
+  </body>
+</html>
