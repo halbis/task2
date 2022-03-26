@@ -1,0 +1,11 @@
+The 10 different ways to make an HTML element invisible in view-port are listed below:
+    1. setting display property to none;
+    2. setting opacity to zero.
+    3. setting z-index to negative value.
+    4. adjusting top,bottom,left,right properties can also make element invisible
+    5. setting hight and width properties to zero.
+    6. by adjusting transform value we can also make element invisible
+    7. using HTML hidden attribute in element tag can also hide the element.
+    8. setting visibility properties to  hidden.
+    9. We can also use absolute position or clip-path to make the element invisible.
+    10. We can use javaScript and add events to hide the HTML element.
