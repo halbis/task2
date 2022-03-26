@@ -5,10 +5,10 @@
 ### Images
 
     - House
-    <img src="./images/house.png" alt="house image">
+    <img src="/images/house.png" alt="house image">
 
     - L letter
-     <img src="./images/l-letter.png" alt="L image">
+     <img src="/images/l-letter.png" alt="L image">
 
     - Plus Sign
-     <img src="./images/plus-sign.png" alt="Plus image">
+     <img src="/images/plus-sign.png" alt="Plus image">
