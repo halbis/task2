@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.environment {
+  position: relative;
+}
+.face {
+  position: relative;
+  height: 250px;
+  width: 300px;
+  border: 4px solid burlywood;
+  background-color: salmon;
+}
+.top {
+  position: absolute;
+  top: -60px;
+  left: -82px;
+  border-left: 6px solid burlywood;
+  border-top: 6px solid burlywood;
+  height: 230px;
+  width: 230px;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+}
+.window1 {
+  background-color: white;
+  position: relative;
+  height: 50px;
+  width: 50px;
+  border: 3px solid burlywood;
+  top: 50px;
+  left: 10px;
+}
+.window2 {
+  background-color: white;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border: 3px solid burlywood;
+  top: 50px;
+  right: 10px;
+}
+.door {
+  background-color: white;
+  position: absolute;
+  height: 120px;
+  width: 80px;
+  border: 6px solid burlywood;
+  left: 100px;
+  bottom: 0px;
+}
+.chimney {
+  background-color: salmon;
+  position: absolute;
+  height: 40px;
+  width: 35px;
+  border: 2px solid burlywood;
+  top: -120px;
+  left: 55px;
+  transform: rotate(50deg);
+}
+.sun {
+  background-color: yellow;
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  border-radius: 40px;
+  border: 2px solid red;
+  top: -300px;
+  left: -40px;
+}
+.tree {
+  position: absolute;
+  height: 100px;
+  width: 8px;
+  background-color: brown;
+  bottom: 0px;
+  right: -153px;
+}
+.tree-top {
+  background-color: green;
+  position: absolute;
+  top: 63%;
+  right: -150px;
+  border-left: 2px solid brown;
+  border-top: 2px solid brown;
+  height: 40px;
+  width: 40px;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+}
+.leaf {
+  background-color: green;
+  position: absolute;
+  top: 68%;
+  right: -150px;
+  border-left: 2px solid brown;
+  border-top: 2px solid brown;
+  height: 30px;
+  width: 30px;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+}
