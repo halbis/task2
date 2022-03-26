@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>L&mdash;Letter</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    #container {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .letter {
+      position: relative;
+      width: 150px;
+      height: 150px;
+      border: 2px solid black;
+      padding: 10px;
+    }
+    .letter::before {
+      content: " ";
+      background-color: black;
+      position: absolute;
+      width: 5px;
+      left: 10%;
+      top: 5px;
+      bottom: 5px;
+      margin-bottom: 8px;
+    }
+    .letter::after {
+      content: " ";
+      position: absolute;
+      background-color: black;
+      height: 5px;
+      top: 90%;
+      left: 15px;
+      right: 5px;
+    }
+  </style>
+  <body>
+    <section id="container">
+      <div class="letter"></div>
+    </section>
+  </body>
+</html>
